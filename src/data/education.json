@@ -1,0 +1,47 @@
+[
+    {
+     "years": "2020 - 2021",
+     "school": "Claude Bernard Lyon 1 University",
+     "type": "Master’s degree in computer science",
+     "speciality": "specialized in Picture Development and 3D Technologies",
+     "skills": "C, C++, C#, OpenGl, Unity",
+     "description": "Deepening my knowledge of computer science in the field of images and 3D development",
+     "realisations": [
+        "3D image synthesis (C++, OpenGL)",
+        "Physics engine to simulate cloth physics (C++)",
+        "Video game development with the Unity game engine (C#)",
+        "Sensorless virtual reality captors development (Unity, Python, OpenCV, OpenPose)",
+        "Modeling and analysis of virtual worlds(Unity, Shadertoy, glsl)",
+        "Geometric modeling (C++)",
+        "Image analysis and processing (C++, OpenCV, matlab)"
+     ],
+     "imageUrl": "assets/images/education/universite-lyon-1.png"
+    },
+    {
+        "years": "2018 - 2020",
+        "school": "Avignon's University",
+        "type": "Master’s degree in computer science",
+        "speciality": "specialized in software engineering",
+        "skills": "C++, C#, Java, JavaScript, SQL, PostgreSQL",
+        "description": "Work-study Master's degree program General knowledge acquired in Software and web development",
+        "realisations": [
+            "database (SQL, NoSQL, MongoDB)",
+            "algorithms (C++)",
+            "Object-Oriented Programming (C++, Java, C#)",
+            "Web development (JavaScript, Java Entreprise Edition, HTML5, CSS)",
+            "Project management (Scrum, UML)"
+        ],
+        "imageUrl": "assets/images/education/UniversiteAvignonLogo.svg"
+    },
+    {
+        "years": "2015 - 2018",
+        "school": "Avignon's University",
+        "type": "Bachelor's degree in computer science",
+        "speciality": "specialized in software engineering",
+        "skills": "C++ · Java · HTML · Feuilles de style en cascade (CSS) · JavaScript · Object Oriented Programming · PL/SQL",
+        "description": "",
+        "realisations": [
+        ],
+        "imageUrl": "assets/images/education/UniversiteAvignonLogo.svg"
+    }
+]

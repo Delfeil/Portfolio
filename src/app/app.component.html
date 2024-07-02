@@ -1,32 +1,34 @@
 <section class="header">
     <mat-toolbar>
-        <span><h1>{{title}}</h1></span>
+        <span>
+            <a mat-fab extended routerLink="" routerLinkActive="active">
+                <h1>{{title}}</h1>
+            </a>
+        </span>
         <span class="spacer"></span>
         <span>
-            <a mat-flat-button flex>Compétences</a>
+            <a mat-flat-button routerLink="skills" routerLinkActive="active-link">Compétences</a>
         </span>
         <span>
-            <button mat-flat-button>Education</button>
+            <a mat-flat-button routerLink="education" routerLinkActive="active-link">Education</a>
         </span>
         <span>
-            <button mat-flat-button>Exp Pro</button>
+            <a mat-flat-button routerLink="experiences" routerLinkActive="active-link">Exp Pro</a>
         </span>
         <span>
-            <button mat-flat-button>Contact</button>
+            <a mat-flat-button routerLink="contact" routerLinkActive="active-link">Contact</a>
         </span>
     </mat-toolbar>
 </section>
 
 <section class="main-container">
-
+    <router-outlet></router-outlet>
 </section>
 
-<section >
-    <footer>
-        <mat-toolbar class="footer">
-            <span></span>
-            <span class="spacer"></span>
-            <span>linkedin</span>
-        </mat-toolbar>
-    </footer>
-</section>
+<footer>
+    <mat-toolbar class="footer">
+        <span></span>
+        <span class="spacer"></span>
+        <span>linkedin</span>
+    </mat-toolbar>
+</footer>

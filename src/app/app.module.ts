@@ -7,20 +7,34 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+import {MatExpansionModule, MatAccordion} from '@angular/material/expansion';
+import {MatListModule} from '@angular/material/list';
+
+import { SummaryComponent } from './components/summary/summary.component';
+import { EducationComponent } from './components/education/education.component';
+import { provideHttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SummaryComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule,
+    MatExpansionModule,
+    MatAccordion,
+    MatListModule
   ],
   providers: [
     provideClientHydration(),
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    provideHttpClient()
   ],
   bootstrap: [AppComponent]
 })
