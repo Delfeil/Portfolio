@@ -10,16 +10,21 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatExpansionModule, MatAccordion} from '@angular/material/expansion';
 import {MatListModule} from '@angular/material/list';
+import {MatDividerModule} from '@angular/material/divider';
 
 import { SummaryComponent } from './components/summary/summary.component';
 import { EducationComponent } from './components/education/education.component';
 import { provideHttpClient } from '@angular/common/http';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { JobsComponent } from './components/jobs/jobs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SummaryComponent,
-    EducationComponent
+    EducationComponent,
+    ExperienceComponent,
+    JobsComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +34,8 @@ import { provideHttpClient } from '@angular/common/http';
     MatCardModule,
     MatExpansionModule,
     MatAccordion,
-    MatListModule
+    MatListModule,
+    MatDividerModule
   ],
   providers: [
     provideClientHydration(),

@@ -1,0 +1,48 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>
+            <mat-toolbar class="education-title">
+                <span class="v-align-sub">
+                    <a mat-stroked-button href="{{experience.link}}" target="_blank" class="image-button"><img src="{{experience.imageUrl}}" ></a>
+                </span>
+                <span class="v-align-super">{{experience.years}}</span>
+                
+                <span class="v-align-super" [innerHTML]="experience.title">
+                </span>
+            </mat-toolbar>
+            <!-- <mat-divider></mat-divider> -->
+        </mat-card-title>
+        <mat-card-subtitle>
+            <p [innerHTML]="experience.description">
+            </p>
+        </mat-card-subtitle>
+    </mat-card-header>
+    <div *ngIf="experience.realisations.length > 0; then thenBlock else elseBlock">
+    </div>
+    <ng-template #thenBlock>
+        <mat-card-content>
+            <mat-accordion>
+                <mat-expansion-panel>
+                    
+                    <mat-expansion-panel-header>
+                        {{experience.skills}}
+                    </mat-expansion-panel-header>
+                    <mat-list>
+                        <mat-list-item class="white-space-collapse height-fit-content" *ngFor="let realisation of experience.realisations">
+                            <p class="white-space-collapse" [innerHTML]="realisation"></p>
+                        </mat-list-item>
+                    </mat-list>
+                </mat-expansion-panel>
+            </mat-accordion>
+        </mat-card-content>
+    </ng-template>
+    <ng-template #elseBlock>
+        <mat-card-content>
+            <div class="skills-only">
+                <span>
+                    <p>{{experience.skills}}</p>
+                </span>
+            </div>
+        </mat-card-content>
+    </ng-template>
+</mat-card>

@@ -1,0 +1,48 @@
+[
+    {
+     "years": "Oct. 2020 - Apr. 2024",
+        "title": "Iconik <b>Unity C# Virtual Reality Gameplay Programmer</b>",
+        "skills": "C# - Unity - OpenXR - FMOD - RenderDoc - PSVR2 - Meta Quest 2 - Steamwork SDK - Jira - Git - Agile methodology: SCRUM",
+        "description": "In a multidisciplinary team, following the agile methodology SCRUM, I developed and improved Gameplay features for video games in Virtual Reality in <b>C#</b> using the game engine <b>Unity</b>.",
+        "realisations": [
+            "I developed gameplay features specific to Virtual Reality using the <b>OpenXR</b> Unity’s library and linear algebra calculation to identify specific player movements.",
+            "Iterative conception and development of prototypes of the feature, while interacting with different teams (Game design, artists) to identify the needs and their evolution.",
+            "I had to use the audio solution <b>FMOD</b> integrated to <b>Unity</b> to implement audio in the games.",
+            "I had to interact with the Quality Analysis team to identify bugs and correct these.",
+            "I conducted some research and development tasks and tests through prototypes to improve game performances on platforms with lesser computation power (<b>RenderDoc</b>, <b>Unity Profiler</b>).",
+            "I had to implement platform specific libraries for the games to be able to run on different platforms (PSVR2, MetaQuest standalone headsets, Steamworks sdk).",
+            "To improve the team productivity, I deployed a nightly build server interacting with different Scripts, to build and deploy the game automatically on various platforms, using a <b>Jenkins</b> server and a <b>Groovy</b> pipeline."
+        ],
+        "imageUrl": "assets/images/jobs/iconik.jpg",
+        "link": "https://www.iconik.com/"
+    },
+    {
+        "years": "Mar. 2021 - Sept. 2021",
+        "title": "LIRIS (Laboratoire d’InfoRmatique en Image et Systèmes d’information) <b>Internship: Augmented Reality Research and Development engineer</b>",
+        "skills": "C# - Unity - ARCore - Swift - XCode - ARKit - Python - Matplotlib - PyQt - Git",
+        "description": "This project consisted of studying the state of the art in Augmented Reality Technologies and softwares, to later be able to propose improvements to existing AR applications.<br /> My part in this project consisted of developing different Augmented Reality applications on Android and IOS systems to collect and analyze data.<br />",
+        "realisations": [
+            "Development of an Augmented Reality <b>Android application</b> using <b>Unity</b> in <b>C#</b> and the <b>ARCore</b> library.",
+            "Development of an Augmented Reality <b>iOS application</b> using the <b>Swift</b> programming language and the <b>ARKit</b> library in the development environment <b>XCode</b>.",
+            "Development of a program in <b>Python</b>, using the Matplotlib library to analyze the data collected by the mobile applications, and a user interface using Qt for Python (<b>PyQt</b>).",
+            "Reading, analyzing and synthesizing state of the art scientific publications about Augmented Reality algorithms."
+        ],
+        "imageUrl": "assets/images/jobs/liris.png",
+        "link": "https://liris.cnrs.fr/"
+    },
+    {
+        "years": "Jul. 2018 - Aug. 2020",
+        "title": "Millionroads <b>Coop-program: Front end web developer</b>",
+        "skills": "Ruby - Ruby on Rails - JavaScript - NoSQL database (Neo4j) - Html - Css - Bootstrap - jQuery - Chart.js - SVG - Snap.svg - Neo4j.rb - Angular - TypeScript - Git - Agile methodology",
+        "description": "In a team following the agile methodology SCRUM, I had to develop and improve user interfaces on the different applications using the framework <b>Ruby on Rails</b>.",
+        "realisations": [
+            "Development of User Interfaces with the <b>framework Ruby on Rails</b> and <b>Html</b>, <b>Css</b>, <b>JavaScript</b> following the <b>Model View Controller</b> architectural model.",
+            "Development of user interfaces to represent data as charts using the <b>Chart.js</b> library.",
+            "Representation of data as a gps using the JavaScript library <b>Snap.svg</b>, to procedurally generate cities and roads as 2D splines.",
+            "Development of Ruby on Rails <b>CRUD</b> APIs to interact with a graph oriented <b>NoSQL</b< database (<b>Neo4j</b>).",
+            "Use of the JavaScript library <b>jQuery</b> to interact with APIs."
+        ],
+        "imageUrl": "assets/images/jobs/millionroads.png",
+        "link": "https://www.millionroads.com/"
+    }
+]
