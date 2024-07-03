@@ -3,14 +3,20 @@
         <mat-card-title>
             <mat-toolbar class="education-title">
                 <span class="v-align-sub">
-                    <a mat-stroked-button href="{{experience.link}}" target="_blank" class="image-button"><img src="{{experience.imageUrl}}" ></a>
-                </span>
+                <div *ngIf="experience.link.length > 0; then linkThenBlock else linkElseBlock">
+                </div>
+                    <ng-template #linkThenBlock>
+                            <a mat-stroked-button href="{{experience.link}}" target="_blank" class="image-button"><img src="{{experience.imageUrl}}" ></a>
+                        </ng-template>
+                        <ng-template #linkElseBlock>
+                            <button mat-stroked-button class="image-button"><img src="{{experience.imageUrl}}" ></button>
+                        </ng-template>
+                </span> 
                 <span class="v-align-super">{{experience.years}}</span>
                 
                 <span class="v-align-super" [innerHTML]="experience.title">
                 </span>
             </mat-toolbar>
-            <!-- <mat-divider></mat-divider> -->
         </mat-card-title>
         <mat-card-subtitle>
             <p [innerHTML]="experience.description">

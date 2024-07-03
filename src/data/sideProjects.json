@@ -1,0 +1,24 @@
+[
+    {
+     "years": "2024",
+     "title": "Web development for personnal projects",
+     "skills": "Angular - Angular Material - SpringBoot",
+     "description": "Development of personnal projects to learn full stack web technologies.",
+     "realisations": [
+        "Development of my Portfolio using <b>Angular</b> and <b>Angular Material</b>"
+     ],
+     "imageUrl": "assets/images/sideProjects/e-learning.png",
+     "link": ""
+    },
+    {
+        "years": "Apr. 2021",
+        "title": "Video Game development",
+        "skills": "C# - Unity - git",
+        "description": "Development of video games in <b>C#</b> using the <b>Unity</b> game engine during game jams within multidisciplinary teams",
+        "realisations": [
+            "Development of video games using the <b>Unity</b> game engine as part of the Scientific Game Jam organized by the LyonGameDev association, and an other one organised by the Game Dev Party association in Lyon."
+        ],
+        "imageUrl": "assets/images/sideProjects/chessRunner.png",
+        "link": "https://d-l-f.itch.io/"
+    }
+]
