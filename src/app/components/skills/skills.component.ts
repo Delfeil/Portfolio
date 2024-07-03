@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
 import { SkillsService } from '../../services/skills/skills.service';
 import { SkillsCategory } from '../../enums/skills-category';
-import { Skill } from '../../interfaces/iSkill';
+import { Skill } from '../../interfaces/skill';
 
 @Component({
   selector: 'app-skills',

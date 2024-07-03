@@ -1,5 +1,5 @@
 import { Injectable, inject } from '@angular/core';
-import { Skill } from '../../interfaces/iSkill';
+import { Skill } from '../../interfaces/skill';
 import { SkillsCategory } from '../../enums/skills-category';
 import { HttpClient } from '@angular/common/http';
 import { Observable, filter, map, toArray } from 'rxjs';
