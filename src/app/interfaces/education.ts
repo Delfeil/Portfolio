@@ -6,5 +6,6 @@ export interface Education {
     skills: string,
     description: string,
     realisations: string[],
-    imageUrl: string
+    imageUrl: string,
+    link: string
 }

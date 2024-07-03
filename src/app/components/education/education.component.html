@@ -2,7 +2,9 @@
     <mat-card-header>
         <mat-card-title>
             <mat-toolbar class="education-title">
-                <span class="v-align-sub"><img src="{{education.imageUrl}}" ></span>
+                <span class="v-align-sub">
+                    <a mat-button href="{{education.link}}" target="_blank"><img src="{{education.imageUrl}}" ></a>
+                </span>
                 <span class="v-align-super">{{education.years}}</span>
                 
                 <span class="v-align-super">

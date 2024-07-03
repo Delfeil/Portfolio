@@ -15,7 +15,8 @@
         "Geometric modeling (C++)",
         "Image analysis and processing (C++, OpenCV, matlab)"
      ],
-     "imageUrl": "assets/images/education/universite-lyon-1.png"
+     "imageUrl": "assets/images/education/universite-lyon-1.png",
+     "link": "http://master-info.univ-lyon1.fr/ID3D/"
     },
     {
         "years": "2018 - 2020",
@@ -31,7 +32,8 @@
             "Web development (JavaScript, Java Entreprise Edition, HTML5, CSS)",
             "Project management (Scrum, UML)"
         ],
-        "imageUrl": "assets/images/education/UniversiteAvignonLogo.svg"
+        "imageUrl": "assets/images/education/UniversiteAvignonLogo.svg",
+        "link": "http://master-info.univ-lyon1.fr/ID3D/"
     },
     {
         "years": "2015 - 2018",
@@ -42,6 +44,7 @@
         "description": "",
         "realisations": [
         ],
-        "imageUrl": "assets/images/education/UniversiteAvignonLogo.svg"
+        "imageUrl": "assets/images/education/UniversiteAvignonLogo.svg",
+        "link": "http://master-info.univ-lyon1.fr/ID3D/"
     }
 ]
