@@ -18,6 +18,7 @@ import { provideHttpClient } from '@angular/common/http';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { JobsComponent } from './components/jobs/jobs.component';
 import { SideProjectsComponent } from './components/side-projects/side-projects.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SideProjectsComponent } from './components/side-projects/side-projects.
     EducationComponent,
     ExperienceComponent,
     JobsComponent,
-    SideProjectsComponent
+    SideProjectsComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,

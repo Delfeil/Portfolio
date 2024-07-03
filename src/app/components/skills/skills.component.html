@@ -1,0 +1,4 @@
+<div *ngFor="let mapEntry of skillsMap | keyvalue">
+    <h1>{{skillsCategoryEnum[mapEntry.key]}}</h1>
+    <p *ngFor="let skill of mapEntry.value">{{skill.name}}, {{getIconUrl(skill)}}</p>
+</div>

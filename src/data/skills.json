@@ -1,0 +1,50 @@
+[
+    {
+        "category": 1,
+        "name": "Unity",
+        "iconUrl": "assets/images/unity.png",
+        "link": "https://unity.com/"
+    },
+    {
+        "category": 0,
+        "name": "C#",
+        "iconUrl": "assets/images/c#.png",
+        "link": "https://dotnet.microsoft.com/fr-fr/languages/csharp"
+    },
+    {
+        "category": 0,
+        "name": "C++",
+        "iconUrl": "assets/images/c++.png",
+        "link": "https://isocpp.org/"
+    },
+    {
+        "category": 0,
+        "name": "Java",
+        "iconUrl": "assets/images/java.png",
+        "link": "https://www.java.com/"
+    },
+    {
+        "category": 0,
+        "name": "JavaScript",
+        "iconUrl": "assets/images/javascript.png",
+        "link": ""
+    },
+    {
+        "category": 0,
+        "name": "TypeScript",
+        "iconUrl": "assets/images/typescript.png",
+        "link": ""
+    },
+    {
+        "category": 0,
+        "name": "Python",
+        "iconUrl": "assets/images/python.png",
+        "link": ""  
+    },
+    {
+        "category": 2,
+        "name": "Angular",
+        "iconUrl": "assets/images/angular.png",
+        "link": ""
+    }
+]
