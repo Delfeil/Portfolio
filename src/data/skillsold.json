@@ -1,0 +1,73 @@
+[
+    {
+        "category": 1,
+        "name": "Unity",
+        "link": "https://unity.com/"
+    },
+    {
+        "category": 0,
+        "name": "Csharp",
+        "link": "https://dotnet.microsoft.com/fr-fr/languages/csharp"
+    },
+    {
+        "category": 0,
+        "name": "C++",
+        "link": "https://isocpp.org/"
+    },
+    {
+        "category": 0,
+        "name": "Java",
+        "link": "https://www.java.com/"
+    },
+    {
+        "category": 0,
+        "name": "JavaScript",
+        "link": ""
+    },
+    {
+        "category": 0,
+        "name": "TypeScript",
+        "link": ""
+    },
+    {
+        "category": 0,
+        "name": "Python",
+        "link": ""  
+    },
+    {
+        "category": 2,
+        "name": "Angular",
+        "link": ""
+    },
+    {
+        "category": 2,
+        "name": "Rails",
+        "link": ""
+    },
+    {
+        "category": 2,
+        "name": "SpringBoot",
+        "link": ""
+    },
+    {
+        "category":  3,
+        "name": "MySQL",
+        "link": ""
+    },
+    {
+        "category":  3,
+        "name": "PostgreSQL",
+        "link": ""
+    },
+    {
+        "category":  3,
+        "name": "Neo4j",
+        "link": ""
+    },
+    {
+        "category":  3,
+        "name": "MongoDB",
+        "link": ""
+    }
+
+]

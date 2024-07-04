@@ -12,7 +12,7 @@ export class SkillsComponent {
 
   private skillsService: SkillsService = inject(SkillsService);
 
-  skillsMap: Map<SkillsCategory, Skill[]> = new Map();
+  skillsMap: Map<SkillsCategory, Skill[] | undefined> = new Map();
 
   skillsCategoryEnum: typeof SkillsCategory = SkillsCategory;
 
@@ -25,13 +25,9 @@ export class SkillsComponent {
     .values(SkillsCategory)
     .filter((v) => isNaN(Number(v)));
 
+    
     stringKeys.forEach((key, category) => {
-      this.skillsService.getSkillsByCategory(category).subscribe({
-          next: (data) => {
-          this.skillsMap.set(category, data);
-        },
-        error: (error) => console.error(error)
-      });
+      this.skillsMap.set(category, this.skillsService.getSkillsByCategory(key));
     });
 
   }

@@ -1,57 +1,171 @@
-[
-    {
-        "category": 1,
-        "name": "Unity",
-        "iconUrl": "assets/images/unity.png",
-        "link": "https://unity.com/"
-    },
-    {
-        "category": 0,
-        "name": "Csharp",
-        "iconUrl": "assets/images/c#.png",
-        "link": "https://dotnet.microsoft.com/fr-fr/languages/csharp"
-    },
-    {
-        "category": 0,
-        "name": "C++",
-        "iconUrl": "assets/images/c++.png",
-        "link": "https://isocpp.org/"
-    },
-    {
-        "category": 0,
-        "name": "Java",
-        "iconUrl": "assets/images/java.png",
-        "link": "https://www.java.com/"
-    },
-    {
-        "category": 0,
-        "name": "JavaScript",
-        "iconUrl": "assets/images/javascript.png",
-        "link": ""
-    },
-    {
-        "category": 0,
-        "name": "TypeScript",
-        "iconUrl": "assets/images/typescript.png",
-        "link": ""
-    },
-    {
-        "category": 0,
-        "name": "Python",
-        "iconUrl": "assets/images/python.png",
-        "link": ""  
-    },
-    {
-        "category": 2,
-        "name": "Angular",
-        "iconUrl": "assets/images/angular.png",
-        "link": ""
-    },
-    {
-        "category": 2,
-        "name": "Rails",
-        "iconUrl": "assets/images/rails.png",
-        "link": ""
-    }
-
-]
+{
+    "ProgrammingLanguage": [
+        {
+            "category": 0,
+            "name": "Csharp",
+            "link": "https://dotnet.microsoft.com/fr-fr/languages/csharp"
+        },
+        {
+            "category": 0,
+            "name": "C++",
+            "link": "https://isocpp.org/"
+        },
+        {
+            "category": 0,
+            "name": "Java",
+            "link": "https://www.java.com/"
+        },
+        {
+            "category": 0,
+            "name": "JavaScript",
+            "link": ""
+        },
+        {
+            "category": 0,
+            "name": "TypeScript",
+            "link": ""
+        },
+        {
+            "category": 0,
+            "name": "Python",
+            "link": ""  
+        }
+    ],
+    "Technologies3D": [
+        {
+            "category": 1,
+            "name": "Unity",
+            "link": "https://unity.com/"
+        },
+        {
+            "category": 1,
+            "name": "Fmod",
+            "link": ""
+        },
+        {
+            "category": 1,
+            "name": "RenderDoc",
+            "link": ""
+        },
+        {
+            "category": 1,
+            "name": "OpenXR",
+            "link": ""
+        },
+        {
+            "category": 1,
+            "name": "ARCore",
+            "link": ""
+        },
+        {
+            "category": 1,
+            "name": "ARKit",
+            "link": ""
+        }
+    ],
+    "Framework": [
+        {
+            "category": 2,
+            "name": "Angular",
+            "link": ""
+        },
+        {
+            "category": 2,
+            "name": "Rails",
+            "link": ""
+        },
+        {
+            "category": 2,
+            "name": "SpringBoot",
+            "link": ""
+        }
+    ],
+    "Database": [
+        {
+            "category":  3,
+            "name": "MySQL",
+            "link": ""
+        },
+        {
+            "category":  3,
+            "name": "PostgreSQL",
+            "link": ""
+        },
+        {
+            "category":  3,
+            "name": "Neo4j",
+            "link": ""
+        },
+        {
+            "category":  3,
+            "name": "MongoDB",
+            "link": ""
+        }
+    ],
+    "Library": [
+        {
+            "category": 4,
+            "name": "JQuery",
+            "link": ""
+        },
+        {
+            "category": 4,
+            "name": "Bootstrap",
+            "link": ""
+        },
+        {
+            "category": 4,
+            "name": "Chart.js",
+            "link": ""
+        },
+        {
+            "category": 4,
+            "name": "SnapSVG",
+            "link": ""
+        },
+        {
+            "category": 4,
+            "name": "Neo4j.rb",
+            "link": ""
+        }
+    ],
+    "CICD": [
+        {
+            "category": 5,
+            "name": "Git",
+            "link": ""
+        },
+        {
+            "category": 5,
+            "name": "GitHub",
+            "link": ""
+        },
+        {
+            "category": 5,
+            "name": "GitLab",
+            "link": ""
+        },
+        {
+            "category": 5,
+            "name": "Jenkins",
+            "link": ""
+        },
+        {
+            "category": 5,
+            "name": "Docker",
+            "link": ""
+        }
+    ],
+    "SpeakingLanguage": [
+        {
+            "category": 6,
+            "name": "French (Native)",
+            "link": ""
+        },
+        {
+            "category": 6,
+            "name": "English (Proficient)",
+            "link": ""
+        }
+    ]
+}
