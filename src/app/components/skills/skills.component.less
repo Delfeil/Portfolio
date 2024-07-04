@@ -1,0 +1,36 @@
+div.grid-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    .grid-tile {
+        // width: 50%;
+        padding-bottom: 1em;
+        align-content: center;
+        mat-card {
+            margin: auto;
+            width: 90%;
+            height: 100%;
+            .card-title {
+                white-space: normal;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .grid-tile {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .grid-tile {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .grid-tile {
+        width: 33%;
+    }
+}

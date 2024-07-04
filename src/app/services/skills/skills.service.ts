@@ -24,6 +24,6 @@ export class SkillsService {
   }
 
   getIconUrl(skill: Skill) {
-    return `assets/images/${skill.name.toLowerCase()}.png`;
+    return `assets/images/skills/${skill.name.toLowerCase()}.png`;
   }
 }

@@ -7,7 +7,7 @@
     },
     {
         "category": 0,
-        "name": "C#",
+        "name": "Csharp",
         "iconUrl": "assets/images/c#.png",
         "link": "https://dotnet.microsoft.com/fr-fr/languages/csharp"
     },
@@ -46,5 +46,12 @@
         "name": "Angular",
         "iconUrl": "assets/images/angular.png",
         "link": ""
+    },
+    {
+        "category": 2,
+        "name": "Rails",
+        "iconUrl": "assets/images/rails.png",
+        "link": ""
     }
+
 ]

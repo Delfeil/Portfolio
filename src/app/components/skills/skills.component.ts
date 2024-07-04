@@ -16,7 +16,11 @@ export class SkillsComponent {
 
   skillsCategoryEnum: typeof SkillsCategory = SkillsCategory;
 
+  public gridCol: number = 3;
+
   private ngOnInit(): void {
+
+
     const stringKeys = Object
     .values(SkillsCategory)
     .filter((v) => isNaN(Number(v)));

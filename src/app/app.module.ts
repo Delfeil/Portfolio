@@ -10,7 +10,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatExpansionModule, MatAccordion} from '@angular/material/expansion';
 import {MatListModule} from '@angular/material/list';
-import {MatDividerModule} from '@angular/material/divider';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatChipsModule} from '@angular/material/chips';
 
 import { SummaryComponent } from './components/summary/summary.component';
 import { EducationComponent } from './components/education/education.component';
@@ -39,7 +40,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     MatExpansionModule,
     MatAccordion,
     MatListModule,
-    MatDividerModule
+    MatGridListModule,
+    MatChipsModule
   ],
   providers: [
     provideClientHydration(),
