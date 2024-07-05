@@ -12,24 +12,26 @@ export class SkillsComponent {
 
   private skillsService: SkillsService = inject(SkillsService);
 
-  skillsMap: Map<SkillsCategory, Skill[] | undefined> = new Map();
+  skillsMap: Map<SkillsCategory, Skill[]> = new Map();
 
   skillsCategoryEnum: typeof SkillsCategory = SkillsCategory;
 
   public gridCol: number = 3;
 
   private ngOnInit(): void {
-
-
-    const stringKeys = Object
-    .values(SkillsCategory)
-    .filter((v) => isNaN(Number(v)));
+    let stringKeys = Object.keys(SkillsCategory)
+      .filter((key) => isNaN(Number(key)))
+      .map(key => key as string);
 
     
-    stringKeys.forEach((key, category) => {
-      this.skillsMap.set(category, this.skillsService.getSkillsByCategory(key));
+    stringKeys.forEach(category => {
+      this.skillsService.getSkillsByCategory(category).subscribe({
+        next: data => {
+          this.skillsMap.set(SkillsCategory[category as keyof typeof SkillsCategory], data);
+        },
+        error: error => console.error(error)
+      });
     });
-
   }
 
   getIconUrl(skill: Skill): string {
