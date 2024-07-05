@@ -18,7 +18,23 @@ export class SkillsService {
     return this.httpClient.get<{[key: string] : Skill[]}>(this.url).pipe(
       map(data => data[skillCategory])
     );  
-  } 
+  }
+
+  getSkillByName(name: string): Observable<Skill | undefined> {
+    return this.httpClient.get<{[key: string] : Skill[]}>(this.url).pipe(
+      map(data => {
+        for(let category in data) {
+          let skill = data[category].find(skill =>
+            skill.name.toLowerCase() == name.toLowerCase()
+          );
+          if(skill) {
+            return skill;
+          }
+        }
+        return undefined;
+      })
+    );
+  }
 
   getIconUrl(skill: Skill) {
     return `assets/images/skills/${skill.name.toLowerCase()}.png`;

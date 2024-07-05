@@ -1,0 +1,12 @@
+<section *ngIf="this.skill !== undefined; then skillIsDefined else skillIsUndefined"></section>
+
+<ng-template #skillIsDefined>
+    <mat-chip>
+        <img matChipAvatar [src]="getIconUrl(skill)"> {{this.skill?.name}}
+    </mat-chip>
+</ng-template>
+<ng-template #skillIsUndefined>
+    <mat-chip>
+        {{this.skillName}}
+    </mat-chip>
+</ng-template>

@@ -2,7 +2,7 @@
     {
      "years": "Oct. 2020 - Apr. 2024",
         "title": "Iconik <b>Unity C# Virtual Reality Gameplay Programmer</b>",
-        "skills": "C# - Unity - OpenXR - FMOD - RenderDoc - PSVR2 - Meta Quest 2 - Steamwork SDK - Jira - Git - Agile methodology: SCRUM",
+        "skills": ["C#", "Unity", "OpenXR", "FMOD", "RenderDoc", "PSVR2", "Meta Quest 2", "Steamwork SDK", "Jira", "Git", "Agile methodology: SCRUM"],
         "description": "In a multidisciplinary team, following the agile methodology SCRUM, I developed and improved Gameplay features for video games in Virtual Reality in <b>C#</b> using the game engine <b>Unity</b>.",
         "realisations": [
             "I developed gameplay features specific to Virtual Reality using the <b>OpenXR</b> Unity’s library and linear algebra calculation to identify specific player movements.",
@@ -19,7 +19,7 @@
     {
         "years": "Mar. 2021 - Sept. 2021",
         "title": "LIRIS (Laboratoire d’InfoRmatique en Image et Systèmes d’information) <b>Internship: Augmented Reality Research and Development engineer</b>",
-        "skills": "C# - Unity - ARCore - Swift - XCode - ARKit - Python - Matplotlib - PyQt - Git",
+        "skills": ["C#", "Unity", "ARCore", "Swift", "XCode", "ARKit", "Python", "Matplotlib", "PyQt", "Git"],
         "description": "This project consisted of studying the state of the art in Augmented Reality Technologies and softwares, to later be able to propose improvements to existing AR applications.<br /> My part in this project consisted of developing different Augmented Reality applications on Android and IOS systems to collect and analyze data.<br />",
         "realisations": [
             "Development of an Augmented Reality <b>Android application</b> using <b>Unity</b> in <b>C#</b> and the <b>ARCore</b> library.",
@@ -33,7 +33,7 @@
     {
         "years": "Jul. 2018 - Aug. 2020",
         "title": "Millionroads <b>Coop-program: Front end web developer</b>",
-        "skills": "Ruby - Ruby on Rails - JavaScript - NoSQL database (Neo4j) - Html - Css - Bootstrap - jQuery - Chart.js - SVG - Snap.svg - Neo4j.rb - Angular - TypeScript - Git - Agile methodology",
+        "skills": ["Ruby", "Ruby on Rails", "JavaScript", "NoSQL database (Neo4j)", "Html", "Css", "Bootstrap", "jQuery", "Chart.js", "SVG", "Snap.svg", "Neo4j.rb", "Angular", "TypeScript", "Git", "Agile methodology"],
         "description": "In a team following the agile methodology SCRUM, I had to develop and improve user interfaces on the different applications using the framework <b>Ruby on Rails</b>.",
         "realisations": [
             "Development of User Interfaces with the <b>framework Ruby on Rails</b> and <b>Html</b>, <b>Css</b>, <b>JavaScript</b> following the <b>Model View Controller</b> architectural model.",

@@ -31,7 +31,11 @@
                 <mat-expansion-panel>
                     
                     <mat-expansion-panel-header>
-                        {{experience.skills}}
+                        <mat-chip-set>
+                            <mat-chip *ngFor="let skillName of experience.skills">
+                                {{skillName}}
+                            </mat-chip>
+                        </mat-chip-set>
                     </mat-expansion-panel-header>
                     <mat-list>
                         <mat-list-item class="white-space-collapse height-fit-content" *ngFor="let realisation of experience.realisations">
@@ -46,7 +50,11 @@
         <mat-card-content>
             <div class="skills-only">
                 <span>
-                    <p>{{experience.skills}}</p>
+                    <mat-chip-set>
+                        <mat-chip *ngFor="let skillName of experience.skills">
+                            {{skillName}}
+                        </mat-chip>
+                    </mat-chip-set>
                 </span>
             </div>
         </mat-card-content>

@@ -2,7 +2,7 @@
     {
      "years": "2020 - 2021",
      "title": "Claude Bernard Lyon 1 University <b>Master’s degree in computer science</b> specialized in Picture Development and 3D Technologies",
-     "skills": "C, C++, C#, OpenGl, Unity",
+     "skills": ["C", "C++", "C#", "OpenGl", "Unity"],
      "description": "Deepening my knowledge of computer science in the field of images and 3D development",
      "realisations": [
         "3D image synthesis (C++, OpenGL)",
@@ -19,7 +19,7 @@
     {
         "years": "2018 - 2020",
         "title": "Avignon's University <b>Master’s degree in computer science</b> specialized in software engineering",
-        "skills": "C++, C#, Java, JavaScript, SQL, PostgreSQL",
+        "skills": ["C++", "C#", "Java", "JavaScript", "SQL", "PostgreSQL"],
         "description": "Work-study Master's degree program General knowledge acquired in Software and web development",
         "realisations": [
             "database (SQL, NoSQL, MongoDB)",
@@ -34,7 +34,7 @@
     {
         "years": "2015 - 2018",
         "title": "Avignon's University <b>Bachelor's degree in computer science</b> specialized in software engineering",
-        "skills": "C++ · Java · HTML · Feuilles de style en cascade (CSS) · JavaScript · Object Oriented Programming · PL/SQL",
+        "skills": ["C++", "Java", "HTML", "Feuilles de style en cascade (CSS)", "JavaScript", "Object Oriented Programming","PL/SQL"],
         "description": "",
         "realisations": [
         ],

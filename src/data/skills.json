@@ -154,6 +154,11 @@
             "category": 5,
             "name": "Docker",
             "link": ""
+        },
+        {
+            "category": 5,
+            "name": "Jira",
+            "link": ""
         }
     ],
     "SpeakingLanguage": [
