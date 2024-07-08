@@ -12,7 +12,7 @@
             <mat-card-content>
                 <mat-chip-set>
                     <mat-chip *ngFor="let skill of mapEntry.value">
-                        <img matChipAvatar [src]="getIconUrl(skill)"> {{skill.name}}
+                        <img matChipAvatar [src]="getIconUrl(skill)"> {{skill.name}} {{skill.description}}
                     </mat-chip>
                 </mat-chip-set>
             </mat-card-content>
