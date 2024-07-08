@@ -12,6 +12,7 @@ import {MatExpansionModule, MatAccordion} from '@angular/material/expansion';
 import {MatListModule} from '@angular/material/list';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatChipsModule} from '@angular/material/chips';
+import {MatIconModule} from '@angular/material/icon';
 
 import { SummaryComponent } from './components/summary/summary.component';
 import { EducationComponent } from './components/education/education.component';
@@ -43,7 +44,8 @@ import { ExperienceSkillComponent } from './components/experience-skill/experien
     MatAccordion,
     MatListModule,
     MatGridListModule,
-    MatChipsModule
+    MatChipsModule,
+    MatIconModule
   ],
   providers: [
     provideClientHydration(),

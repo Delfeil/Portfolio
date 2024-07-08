@@ -1,0 +1,39 @@
+.summary-title {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 4em;
+    color: #444;
+
+    mat-card-header {
+        margin: auto;
+    }
+}
+
+.summary-content {
+    mat-card-content {
+        mat-toolbar {
+            display: inline-block;
+            white-space: normal;
+            text-align: right;
+            padding-top: 0.5em;
+        }
+        span {
+            margin-right: 0.5em;
+            a {
+                margin-top: 0.5em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .summary-title {
+        margin-top: 10em;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .summary-title {
+        margin-top: 2em;
+    }
+}

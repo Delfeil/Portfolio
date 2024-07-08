@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { MatIconRegistry } from '@angular/material/icon';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-summary',
@@ -6,5 +8,16 @@ import { Component } from '@angular/core';
   styleUrl: './summary.component.less'
 })
 export class SummaryComponent {
+  public iconRegistry: MatIconRegistry = inject(MatIconRegistry);
+  private sanitizer: DomSanitizer = inject(DomSanitizer);
+
+  constructor() {
+    console.log("ici");
+    this.iconRegistry.addSvgIcon('email', this.sanitizer.bypassSecurityTrustResourceUrl("/assets/icons/email.svg"))
+    this.iconRegistry.addSvgIcon('cv', this.sanitizer.bypassSecurityTrustResourceUrl("/assets/icons/cv.svg"))
+    this.iconRegistry.addSvgIcon('linkedin', this.sanitizer.bypassSecurityTrustResourceUrl("/assets/icons/linkedin.svg"))
+    this.iconRegistry.addSvgIcon('github', this.sanitizer.bypassSecurityTrustResourceUrl("/assets/icons/github.svg"))
+
+  }
 
 }
