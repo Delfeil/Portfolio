@@ -12,7 +12,6 @@ export class SummaryComponent {
   private sanitizer: DomSanitizer = inject(DomSanitizer);
 
   constructor() {
-    console.log("ici");
     this.iconRegistry.addSvgIcon('email', this.sanitizer.bypassSecurityTrustResourceUrl("/assets/icons/email.svg"))
     this.iconRegistry.addSvgIcon('cv', this.sanitizer.bypassSecurityTrustResourceUrl("/assets/icons/cv.svg"))
     this.iconRegistry.addSvgIcon('linkedin', this.sanitizer.bypassSecurityTrustResourceUrl("/assets/icons/linkedin.svg"))
