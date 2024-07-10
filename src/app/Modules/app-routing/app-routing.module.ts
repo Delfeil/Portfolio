@@ -12,7 +12,6 @@ const routes: Routes = [
   {path: "education", component: EducationComponent},
   {path: "experiences", component: JobsComponent},
   {path: "sideProjects", component: SideProjectsComponent},
-  {path: "contact", component: SummaryComponent},
 ];
 
 @NgModule({
