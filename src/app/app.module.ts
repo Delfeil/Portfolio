@@ -13,6 +13,7 @@ import {MatListModule} from '@angular/material/list';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatIconModule} from '@angular/material/icon';
+import {MatSidenavModule} from '@angular/material/sidenav'; 
 
 import { SummaryComponent } from './components/summary/summary.component';
 import { EducationComponent } from './components/education/education.component';
@@ -22,6 +23,7 @@ import { JobsComponent } from './components/jobs/jobs.component';
 import { SideProjectsComponent } from './components/side-projects/side-projects.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ExperienceSkillComponent } from './components/experience-skill/experience-skill.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { ExperienceSkillComponent } from './components/experience-skill/experien
     JobsComponent,
     SideProjectsComponent,
     SkillsComponent,
-    ExperienceSkillComponent
+    ExperienceSkillComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +48,8 @@ import { ExperienceSkillComponent } from './components/experience-skill/experien
     MatListModule,
     MatGridListModule,
     MatChipsModule,
-    MatIconModule
+    MatIconModule,
+    MatSidenavModule
   ],
   providers: [
     provideClientHydration(),

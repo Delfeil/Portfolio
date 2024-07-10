@@ -12,6 +12,9 @@
 mat-toolbar {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    mat-icon {
+        margin: 0;
+    }
 
     span {
         margin-left: 0.1em;
@@ -21,6 +24,43 @@ mat-toolbar {
     .active-link {
         background-color: #55a9ff;
     }
+}
+
+mat-drawer {
+    background-color: #ffffffe5;
+    position: fixed;
+
+    border-color: #777;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    button {
+        width: 100%;
+        text-align: left;
+        padding-left: 2em;
+        display: inline-block;
+    }
+    a {
+        width: 100%;
+    }
+    mat-icon {
+        margin: 0;
+    }
+    .active-link {
+        background-color: #97979780;
+    }
+}
+.mat-drawer-container-has-open {
+    position: fixed;
+}
+
+::ng-deep .mat-drawer-backdrop.mat-drawer-shown {
+    // background-color: white !important;
+    height: 100em;
+    position: fixed;
 }
 
 .main-container {
@@ -38,5 +78,23 @@ mat-toolbar {
     z-index: 2;
     mat-icon {
         margin: 0;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 720px) {
+    .hide-in-full-screen {
+        display: inherit;
+    }
+    .hide-in-small-screen {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .hide-in-full-screen {
+        display: none;
+    }
+    .hide-in-small-screen {
+        display: inherit;
     }
 }

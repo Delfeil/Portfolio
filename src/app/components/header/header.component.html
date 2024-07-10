@@ -1,0 +1,50 @@
+<mat-toolbar class="full-screen-header">
+    <content>
+        <span class="hide-in-full-screen">
+            <button mat-fab extended (click)="drawer.toggle()">
+                <h1>{{title}}</h1>
+            </button>
+        </span>
+        <span>
+            <a mat-fab extended routerLink="" routerLinkActive="active">
+                <h1>{{title}}</h1>
+            </a>
+        </span>
+        <span class="spacer"></span>
+        <span>
+            <a mat-flat-button routerLink="skills" routerLinkActive="active-link">Compétences</a>
+        </span>
+        <span>
+            <a mat-flat-button routerLink="education" routerLinkActive="active-link">Education</a>
+        </span>
+        <span>
+            <a mat-flat-button routerLink="experiences" routerLinkActive="active-link">Exp Pro</a>
+        </span>
+        <span>
+            <a mat-flat-button routerLink="sideProjects" routerLinkActive="active-link">Side Projects</a>
+        </span>
+    </content>
+</mat-toolbar>
+<!-- <content class="small-screen-header"> -->
+<mat-drawer #drawer mode="over">
+    <mat-list>
+        <mat-list-item>
+            <a mat-fab extended routerLink="" routerLinkActive="active">
+                <h1>{{title}}</h1>
+            </a>
+        </mat-list-item>
+        <mat-list-item>
+            <a mat-flat-button routerLink="skills" routerLinkActive="active-link">Compétences</a>
+        </mat-list-item>
+        <mat-list-item>
+            <a mat-flat-button routerLink="education" routerLinkActive="active-link">Education</a>
+        </mat-list-item>
+        <mat-list-item>
+            <a mat-flat-button routerLink="experiences" routerLinkActive="active-link">Exp Pro</a>
+        </mat-list-item>
+        <mat-list-item>
+            <a mat-flat-button routerLink="sideProjects" routerLinkActive="active-link">Side Projects</a>
+        </mat-list-item>
+    </mat-list>
+</mat-drawer>
+<!-- </content>   -->

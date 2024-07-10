@@ -18,6 +18,8 @@ export class AppComponent {
     this.iconRegistry.addSvgIcon('cv', this.sanitizer.bypassSecurityTrustResourceUrl("/assets/icons/cv.svg"))
     this.iconRegistry.addSvgIcon('linkedin', this.sanitizer.bypassSecurityTrustResourceUrl("/assets/icons/linkedin.svg"))
     this.iconRegistry.addSvgIcon('github', this.sanitizer.bypassSecurityTrustResourceUrl("/assets/icons/github.svg"))
+    this.iconRegistry.addSvgIcon('option', this.sanitizer.bypassSecurityTrustResourceUrl("/assets/icons/option.svg"))
+    this.iconRegistry.addSvgIcon('back', this.sanitizer.bypassSecurityTrustResourceUrl("/assets/icons/back.svg"))
 
   }
 }
