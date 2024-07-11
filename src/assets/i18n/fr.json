@@ -1,0 +1,61 @@
+{
+    "header": {
+        "skills": "Compétences",
+        "studies": "Études",
+        "pro": "Expériences profesionnel",
+        "side": "Projets personnels",
+        "translation": {
+            "fr": "Français",
+            "en": "Anglais"
+        }
+    },
+    "summary": {
+        "description": "Développeur logiciel avec 3 ans d'expérience dans le développement d'applicaitons web et de jeux vidéos, je souhaite donner une dimension internationale à ma carrière, tout en approfondissant mes conaissances dans le développement informatique. Je suis actuellement à la recherches de nouvelles opportunitées notement au travers d'un Volontariat International en Entreprise (VIE).",
+        "cv": "CV"
+    },
+    "skills": {
+        "categories": {
+            "ProgrammingLanguage": "Language de programmation",
+            "Technologies3D": "Technologies 3D",
+            "Framework": "Frameworks",
+            "Database": "Bases de Données",
+            "Library": "Librairies",
+            "CICD": "CICD et outils",
+            "SpeakingLanguage": "Langues"
+        },
+        "skill": {
+            "Csharp": "C#",
+            "C++": "C++",
+            "Java": "Java",
+            "JavaScript": "JavaScript",
+            "TypeScript": "TypeScript",
+            "Python": "Python",
+            "Unity": "Unity",
+            "Fmod": "Fmod",
+            "RenderDoc": "RenderDoc",
+            "OpenXR": "OpenXR",
+            "ARCore": "ARCore",
+            "ARKit": "ARKit",
+            "Angular": "Angular",
+            "Rails": "Ruby on Rails",
+            "SpringBoot": "SpringBoot",
+            "MySQL": "MySQL",
+            "PostgreSQL": "PostgreSQL",
+            "Neo4j": "Neo4j",
+            "MongoDB": "MongoDB",
+            "JQuery": "JQuery",
+            "Bootstrap": "Bootstrap",
+            "Chart.js": "Chart.js",
+            "SnapSVG": "SnapSVG",
+            "Neo4j.rb": "Neo4j.rb",
+            "Git": "Git",
+            "GitHub": "GitHub",
+            "GitLab": "GitLab",
+            "Jenkins": "Jenkins",
+            "Docker": "Docker",
+            "Jira": "Jira",
+            "French": "Français (Natif)",
+            "English": "Anglais (Maîtrise)"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+[
+    {
+     "years": "2020 - 2021",
+     "title": "Université Claude Bernard Lyon 1 <b>Master informatique</b> spécialité Image Développement et Technologie 3D",
+     "skills": ["C", "C++", "C#", "OpenGl", "Unity"],
+     "description": "Acquisition de nouvelles compétences dans le domaine de l'informatique orienté imagerie et développement 3D",
+     "realisations": [
+        "Synthèse d'images 3D (C++, OpenGL)",
+        "Développement d'un moteur physique simulant des tissus (C++)",
+        "Développement de jeux vidéos au travers du moteur de jeux Unity (C#)",
+        "Développement d'un système de capteur sans manettes en Réalité Virtuelle (Unity, Python, OpenCV, OpenPose)",
+        "Modélisation et analyse de mondes virtuels (Unity, Shadertoy, glsl)",
+        "Modélisation Géométrique (C++)",
+        "Analyse et calcul d'images (C++, OpenCV, matlab)"
+     ],
+     "imageUrl": "assets/images/education/universite-lyon-1.png",
+     "link": "http://master-info.univ-lyon1.fr/ID3D/"
+    },
+    {
+        "years": "2018 - 2020",
+        "title": "Université d'Avignon <b>Master Informatique</b> Spécialité Ingénierie du Logiciel de la SociétE Numérique",
+        "skills": ["C++", "C#", "Java", "JavaScript", "SQL", "PostgreSQL"],
+        "description": "Master réalisé en alternance, centré autours de concepts généraux concernant le développement web et logiciel",
+        "realisations": [
+            "Base de données (SQL, NoSQL, MongoDB)",
+            "Algoritmie (C++)",
+            "Programmation Orientée Objet (C++, Java, C#)",
+            "Développement web (JavaScript, Java Entreprise Edition, HTML5, CSS)",
+            "Gestion de projet (Scrum, UML)"
+        ],
+        "imageUrl": "assets/images/education/UniversiteAvignonLogo.svg",
+        "link": "http://master-info.univ-lyon1.fr/ID3D/"
+    },
+    {
+        "years": "2015 - 2018",
+        "title": "Université d'Avignon <b>Licence Informatique</b> spécialité Génie Logiciel",
+        "skills": ["C++", "Java", "HTML", "CSS", "JavaScript", "Object Oriented Programming","PL/SQL"],
+        "description": "",
+        "realisations": [
+        ],
+        "imageUrl": "assets/images/education/UniversiteAvignonLogo.svg",
+        "link": "http://master-info.univ-lyon1.fr/ID3D/"
+    }
+]

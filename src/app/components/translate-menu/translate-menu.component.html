@@ -1,0 +1,16 @@
+<button mat-icon-button [matMenuTriggerFor]="translationMenu">
+    <mat-icon [svgIcon]="getCurrentLang()"></mat-icon>
+</button>
+<mat-menu #translationMenu="matMenu">
+    <button mat-menu-item (click)="switchTranslation('fr')"
+        [ngClass]="getCurrentLang() == 'fr' ? 'activated': ''">
+        <mat-icon svgIcon="fr"></mat-icon>
+        <span>{{ 'header.translation.fr' | translate}}</span>
+    </button>
+    <button mat-menu-item (click)="switchTranslation('en')"
+        [ngClass]="getCurrentLang() == 'fr' ? 'activated': ''">
+        <mat-icon svgIcon="en"></mat-icon>
+        <span>{{ 'header.translation.en' | translate}}</span>
+    </button>
+</mat-menu>
+  

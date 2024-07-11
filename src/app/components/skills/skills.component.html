@@ -5,14 +5,15 @@
             <mat-card-header>
                 <mat-card-title>
                     <mat-toolbar>
-                        <span class="card-title">{{skillsCategoryEnum[mapEntry.key]}}</span>
+                        <!-- <span class="card-title">{{skillsCategoryEnum[mapEntry.key]}}</span> -->
+                        <span class="card-title">{{getSkillCategoryTranslation(mapEntry.key)}}</span>
                     </mat-toolbar>
                 </mat-card-title>
             </mat-card-header>
             <mat-card-content>
                 <mat-chip-set>
                     <mat-chip *ngFor="let skill of mapEntry.value">
-                        <img matChipAvatar [src]="getIconUrl(skill)"> {{skill.name}} {{skill.description}}
+                        <img matChipAvatar [src]="getIconUrl(skill)"> {{getSkillTanslation(skill)}}
                     </mat-chip>
                 </mat-chip-set>
             </mat-card-content>

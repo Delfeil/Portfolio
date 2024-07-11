@@ -2,6 +2,7 @@ import { Component, inject } from '@angular/core';
 import { SkillsService } from '../../services/skills/skills.service';
 import { SkillsCategory } from '../../enums/skills-category';
 import { Skill } from '../../interfaces/skill';
+import { SkillsCategoryService } from '../../services/skills-category/skills-category.service';
 
 @Component({
   selector: 'app-skills',
@@ -11,6 +12,7 @@ import { Skill } from '../../interfaces/skill';
 export class SkillsComponent {
 
   private skillsService: SkillsService = inject(SkillsService);
+  private skillsCategoryService: SkillsCategoryService = inject(SkillsCategoryService);
 
   skillsMap: Map<SkillsCategory, Skill[]> = new Map();
 
@@ -36,5 +38,13 @@ export class SkillsComponent {
 
   getIconUrl(skill: Skill): string {
     return this.skillsService.getIconUrl(skill);
+  }
+
+  getSkillTanslation(skill: Skill): string {
+    return this.skillsService.getTranslation(skill);
+  }
+
+  getSkillCategoryTranslation(skillCategory: SkillsCategory): string {
+    return this.skillsCategoryService.getTranslation(skillCategory);
   }
 }

@@ -1,0 +1,61 @@
+{
+    "header": {
+        "skills": "Skills",
+        "studies": "Education",
+        "pro": "Professional Experiences",
+        "side": "Side Projects",
+        "translation": {
+            "fr": "French",
+            "en": "English"
+        }
+    },
+    "summary": {
+        "description": "As a software engineer with 3 years of experience in the development of web applications and video games, I am interested in adding an international dimension to my career while deepening my knowledge and skills. I'm looking for new opportunities, in particular through the Volontariat International en Entreprise (VIE) program.",
+        "cv": "Resume"
+    },
+    "skills": {
+        "categories": {
+            "ProgrammingLanguage": "Programming Languages",
+            "Technologies3D": "3D Technologies",
+            "Framework": "Frameworks",
+            "Database": "Databases",
+            "Library": "Libraries",
+            "CICD": "CICD and tools",
+            "SpeakingLanguage": "Languages spoken"
+        },
+        "skill": {
+            "Csharp": "C#",
+            "C++": "C++",
+            "Java": "Java",
+            "JavaScript": "JavaScript",
+            "TypeScript": "TypeScript",
+            "Python": "Python",
+            "Unity": "Unity",
+            "Fmod": "Fmod",
+            "RenderDoc": "RenderDoc",
+            "OpenXR": "OpenXR",
+            "ARCore": "ARCore",
+            "ARKit": "ARKit",
+            "Angular": "Angular",
+            "Rails": "Ruby on Rails",
+            "SpringBoot": "SpringBoot",
+            "MySQL": "MySQL",
+            "PostgreSQL": "PostgreSQL",
+            "Neo4j": "Neo4j",
+            "MongoDB": "MongoDB",
+            "JQuery": "JQuery",
+            "Bootstrap": "Bootstrap",
+            "Chart.js": "Chart.js",
+            "SnapSVG": "SnapSVG",
+            "Neo4j.rb": "Neo4j.rb",
+            "Git": "Git",
+            "GitHub": "GitHub",
+            "GitLab": "GitLab",
+            "Jenkins": "Jenkins",
+            "Docker": "Docker",
+            "Jira": "Jira",
+            "French": "French (Native)",
+            "English": "English (Proficient)"
+        }
+    }
+}

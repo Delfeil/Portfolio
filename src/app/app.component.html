@@ -17,16 +17,21 @@
                 </a>
             </mat-list-item> -->
             <mat-list-item>
-                <a mat-stroked-button routerLink="skills" (click)="drawer.close()" routerLinkActive="active-link">Compétences</a>
+                <a mat-stroked-button routerLink="skills" (click)="drawer.close()" routerLinkActive="active-link">{{ 'header.skills' | translate }}</a>
             </mat-list-item>
             <mat-list-item>
-                <a mat-stroked-button routerLink="education" (click)="drawer.close()" routerLinkActive="active-link">Education</a>
+                <a mat-stroked-button routerLink="education" (click)="drawer.close()" routerLinkActive="active-link">{{ 'header.studies' | translate }}</a>
             </mat-list-item>
             <mat-list-item>
-                <a mat-stroked-button routerLink="experiences" (click)="drawer.close()" routerLinkActive="active-link">Exp Pro</a>
+                <a mat-stroked-button routerLink="experiences" (click)="drawer.close()" routerLinkActive="active-link">{{ 'header.pro' | translate }}</a>
             </mat-list-item>
             <mat-list-item>
-                <a mat-stroked-button routerLink="sideProjects" (click)="drawer.close()" routerLinkActive="active-link">Side Projects</a>
+                <a mat-stroked-button routerLink="sideProjects" (click)="drawer.close()" routerLinkActive="active-link">{{ 'header.side' | translate }}</a>
+            </mat-list-item>
+            <mat-list-item class="spacer">
+            </mat-list-item>
+            <mat-list-item>
+                <app-translate-menu></app-translate-menu>
             </mat-list-item>
         </mat-list>
     </mat-drawer>
@@ -47,16 +52,19 @@
         </span>
         <span class="spacer"></span>
         <span class="hide-in-small-screen">
-            <a mat-flat-button routerLink="skills" routerLinkActive="active-link">Compétences</a>
+            <a mat-flat-button routerLink="skills" routerLinkActive="active-link">{{ 'header.skills' | translate }}</a>
         </span>
         <span class="hide-in-small-screen">
-            <a mat-flat-button routerLink="education" routerLinkActive="active-link">Education</a>
+            <a mat-flat-button routerLink="education" routerLinkActive="active-link">{{ 'header.studies' | translate }}</a>
         </span>
         <span class="hide-in-small-screen">
-            <a mat-flat-button routerLink="experiences" routerLinkActive="active-link">Exp Pro</a>
+            <a mat-flat-button routerLink="experiences" routerLinkActive="active-link">{{ 'header.pro' | translate }}</a>
         </span>
         <span class="hide-in-small-screen">
-            <a mat-flat-button routerLink="sideProjects" routerLinkActive="active-link">Side Projects</a>
+            <a mat-flat-button routerLink="sideProjects" routerLinkActive="active-link">{{ 'header.side' | translate }}</a>
+        </span>
+        <span class="hide-in-small-screen">
+            <app-translate-menu></app-translate-menu>
         </span>
     </mat-toolbar>
 </section>

@@ -1,8 +1,8 @@
 import { Injectable, inject } from '@angular/core';
 import { Skill } from '../../interfaces/skill';
-import { SkillsCategory } from '../../enums/skills-category';
 import { HttpClient } from '@angular/common/http';
-import { Observable, filter, map, toArray } from 'rxjs';
+import { Observable, map } from 'rxjs';
+import { TranslateService } from '@ngx-translate/core';
 
 @Injectable({
   providedIn: 'root'
@@ -11,6 +11,8 @@ export class SkillsService {
   private url: string = "data/skills.json"
   
   private httpClient: HttpClient = inject(HttpClient);
+
+  private translate: TranslateService = inject(TranslateService);
   
   constructor() { }
   
@@ -38,5 +40,9 @@ export class SkillsService {
 
   getIconUrl(skill: Skill) {
     return `assets/images/skills/${skill.name.toLowerCase()}.png`;
+  }
+
+  getTranslation(skill: Skill): string {
+    return this.translate.instant(`skills.skill.${skill.name}`)
   }
 }

@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { inject, NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './Modules/app-routing/app-routing.module';
@@ -13,7 +13,8 @@ import {MatListModule} from '@angular/material/list';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatIconModule} from '@angular/material/icon';
-import {MatSidenavModule} from '@angular/material/sidenav'; 
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatMenuModule} from '@angular/material/menu';
 
 import { SummaryComponent } from './components/summary/summary.component';
 import { EducationComponent } from './components/education/education.component';
@@ -25,6 +26,16 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ExperienceSkillComponent } from './components/experience-skill/experience-skill.component';
 import { HeaderComponent } from './components/header/header.component';
 
+import {TranslateModule, TranslateLoader, TranslateService} from '@ngx-translate/core';
+import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import {HttpClient} from '@angular/common/http';
+import { TranslateMenuComponent } from './components/translate-menu/translate-menu.component';
+
+// AoT requires an exported function for factories
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +46,8 @@ import { HeaderComponent } from './components/header/header.component';
     SideProjectsComponent,
     SkillsComponent,
     ExperienceSkillComponent,
-    HeaderComponent
+    HeaderComponent,
+    TranslateMenuComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +61,16 @@ import { HeaderComponent } from './components/header/header.component';
     MatGridListModule,
     MatChipsModule,
     MatIconModule,
-    MatSidenavModule
+    MatMenuModule,
+    MatSidenavModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'en',
+      loader: {
+          provide: TranslateLoader,
+          useFactory: HttpLoaderFactory,
+          deps: [HttpClient]
+      }
+  })
   ],
   providers: [
     provideClientHydration(),
@@ -58,4 +79,10 @@ import { HeaderComponent } from './components/header/header.component';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  private translate: TranslateService = inject(TranslateService);
+  constructor() {
+    let browserLang = this.translate.getBrowserLang();
+    this.translate.use(browserLang?.match(/en|fr/) ? browserLang : 'en');
+  }
+}
