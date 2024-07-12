@@ -30,6 +30,7 @@ import {TranslateModule, TranslateLoader, TranslateService} from '@ngx-translate
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient} from '@angular/common/http';
 import { TranslateMenuComponent } from './components/translate-menu/translate-menu.component';
+import { SwipeDirective } from './directives/swipe.directive';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -47,7 +48,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     SkillsComponent,
     ExperienceSkillComponent,
     HeaderComponent,
-    TranslateMenuComponent
+    TranslateMenuComponent,
+    SwipeDirective
   ],
   imports: [
     BrowserModule,
