@@ -12,6 +12,18 @@
 mat-toolbar {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+
+    .titleButtonLink {
+        background-color: transparent;
+        border: black;
+        border-width: 1px;
+        border-style: solid;
+    }
+
+    .buttonLink {
+        background-color: #e8731c;
+    }
+
     mat-icon {
         margin: 0;
     }
@@ -22,7 +34,7 @@ mat-toolbar {
     }
 
     .active-link {
-        background-color: #55a9ff;
+        background-color: #fb9f5b;
     }
 }
 
@@ -45,6 +57,7 @@ mat-drawer {
     }
     a {
         width: 100%;
+        color: #e8731c;
     }
     mat-icon {
         margin: 0;
@@ -70,7 +83,8 @@ mat-drawer {
 }
 
 .footer {
-    background-color: #d7e3ff;
+    // background-color: #d7e3ff;
+    background-color: #fb9f5b;
     height:2.5em;
     width: 100%;
     position: fixed;
@@ -78,6 +92,9 @@ mat-drawer {
     z-index: 2;
     mat-icon {
         margin: 0;
+    }
+    a {
+        background-color: white;
     }
 }
 

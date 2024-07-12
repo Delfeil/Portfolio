@@ -2,14 +2,14 @@
     {
      "years": "Oct. 2020 - Avr. 2024",
         "title": "Iconik <b>Unity C# Développeur Gameplay Réalité Virtuelle</b>",
-        "skills": ["C#", "Unity", "OpenXR", "FMOD", "RenderDoc", "PSVR2", "Meta Quest 2", "Steamwork SDK", "Jira", "Git", "Agile methodology: SCRUM"],
+        "skills": ["C#", "Unity", "OpenXR", "FMOD", "RenderDoc", "PSVR2", "Meta Quest 2", "Steamwork SDK", "Jira", "Git", "Méthodilogie Agile: SCRUM"],
         "description": "Dans une équipe multidisciplinaire, suivant la méthodologie SCRUM, j'ai développé et amélioré des fonctionalités de Gameplay pour des jeux vidéos de Réalité Virtuelle en <b>C#</b> using the game engine <b>Unity</b>.",
         "realisations": [
-            "Développement de fonctionalités de gameplay  spécifiques à la Réalité Virtuelle en utilisant les librairies <b>OpenXR</b> de Unity et des calculs d'algèbre linéaire pour détecter des mouvements spécifiques du joueur.",
+            "Développement de fonctionalités de gameplay  spécifiques à la Réalité Virtuelle en utilisant la librairie <b>OpenXR</b> de Unity et des calculs d'algèbre linéaire pour détecter des mouvements spécifiques du joueur.",
             "Conception et développement itérative de prototypes de la fonctionnalité, en interaction avec différentes équipes (Game design, artistes) pour identifier les besoins et leurs évolutions.",
-            "Utilisation de la solution audio <b>FMOD</b> intégrée à <b>Unity</b> pour controler l'audio spacialisé dans les jeux.",
+            "Utilisation de la solution audio <b>FMOD</b> et intégration de celle-ci à <b>Unity</b> pour controler l'audio spacialisé dans les jeux.",
             "Travail avec les équipes d'Analyse Qualité afin d'identifier et de corriger les bugs.",
-            "Travail de recherche et de développement pour améliorer les performances du jeu sur des plateformes ayant une puissance de calcul moindre en utilisant (<b>RenderDoc</b>, <b>Unity Profiler</b>).",
+            "Travail de recherche et de développement pour améliorer les performances du jeu sur des plateformes ayant une puissance de calcul moindre en utilisant <b>RenderDoc</b> et <b>Unity Profiler</b>.",
             "Développement de fonctionalités spécifiques à certaines plateformes (PSVR2, MetaQuest, Steamworks sdk).",
             "Pour améliorer les performances de l'équipe, j'ai déployé un serveur nightly build interagissant avec differents Scripts, pour créer le jeu et le déployer automatiquement sur différentes plateformes en utilisant un serveur <b>Jenkins</b> ainsi qu'un pipeline <b>Groovy</b>."
         ],
@@ -38,7 +38,7 @@
         "realisations": [
             "Développment d'interfaces utilisateurs en utilisant le <b>framework Ruby on Rails</b>, <b>Html</b>, <b>Css</b> et <b>JavaScript</b>, au travers d'une architecture <b>Model View Controller</b>.",
             "Développment d'interfaces représentant des données sous formes de graphiques à l'aide de la librairie <b>Chart.js</b>.",
-            "Representation of data as a gps using the JavaScript library <b>Snap.svg</b>, to procedurally generate cities and roads as 2D splines.",
+            "Representation des données sous la forme d'un gps en utilisant la librairie JavaScript <b>Snap.svg</b>, afin de générer procéduralement des villes et des routes avec des splines 2D.",
             "Développement d'APIs <b>CRUD</b> avec le framework Ruby on Rails, interagissant avec une base de donnée NosQL orientée graph (<b>Neo4j</b>).",
             "Utilisation de la librairie JavaScript <b>jQuery</b> pour interragir avec différentes APIs."
         ],
