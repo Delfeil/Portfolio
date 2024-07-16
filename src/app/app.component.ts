@@ -10,7 +10,7 @@ import {TranslateService} from '@ngx-translate/core';
   styleUrl: './app.component.less'
 })
 export class AppComponent {
-  title = 'Delfeil-Casanova';
+  title = 'Delfeil Casanova';
 
   @ViewChild('drawer') sidenav?: MatSidenav;
 

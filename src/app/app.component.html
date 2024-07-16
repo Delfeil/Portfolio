@@ -42,14 +42,15 @@
 <section class="header">
     <mat-toolbar>
         <span class="hide-in-full-screen">
-            <button mat-stroked-button (click)="drawer.open()">
+            <button mat-stroked-button (click)="drawer.open()" class="titleButtonLink sideNavToggler">
                 <mat-icon svgIcon="option"></mat-icon>
             </button>
         </span>
         <span class="hide-in-full-screen spacer"></span>
         <span>
-            <a mat-fab extended routerLink="" routerLinkActive="active" class="titleButtonLink">
-                <h1>{{title}}</h1>
+            <a mat-stroked-button extended routerLink="" routerLinkActive="active" class="titleButtonLink">
+                <img src="assets/icons/logo.png">
+                {{title}}
             </a>
         </span>
         <span class="spacer"></span>

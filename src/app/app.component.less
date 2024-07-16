@@ -12,12 +12,27 @@
 mat-toolbar {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-
+    height: fit-content;
     .titleButtonLink {
         background-color: transparent;
-        border: black;
+        border-color: #e8731c;
         border-width: 1px;
         border-style: solid;
+        color: #e8731c;
+        &.sideNavToggler {
+            border-color: black !important;
+        }
+        img {
+            width: 30px;
+            height: 30px;
+
+            display: inline-block;
+            position: relative;
+            vertical-align: top;
+            font-size: 1.125rem;
+            // height: 1.125rem;
+            // width: 1.125rem;
+        }
     }
 
     .buttonLink {
