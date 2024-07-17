@@ -8,7 +8,7 @@
         "Synthèse d'images 3D (C++, OpenGL)",
         "Développement d'un moteur physique simulant des tissus (C++)",
         "Développement de jeux vidéos au travers du moteur de jeux Unity (C#)",
-        "Développement d'un système de capteur sans manettes en Réalité Virtuelle (Unity, Python, OpenCV, OpenPose)",
+        "Développement d'un système de capteur sans manette en Réalité Virtuelle (Unity, Python, OpenCV, OpenPose)",
         "Modélisation et analyse de mondes virtuels (Unity, Shadertoy, glsl)",
         "Modélisation Géométrique (C++)",
         "Analyse et calcul d'images (C++, OpenCV, matlab)"
@@ -20,7 +20,7 @@
         "years": "2018 - 2020",
         "title": "Université d'Avignon <b>Master Informatique</b> Spécialité Ingénierie du Logiciel de la SociétE Numérique",
         "skills": ["C++", "C#", "Java", "JavaScript", "SQL", "PostgreSQL"],
-        "description": "Master réalisé en alternance, centré autours de concepts généraux concernant le développement web et logiciel",
+        "description": "Master réalisé en alternance, centré autour de concepts généraux concernant le développement web et logiciel",
         "realisations": [
             "Base de données (SQL, NoSQL, MongoDB)",
             "Algoritmie (C++)",

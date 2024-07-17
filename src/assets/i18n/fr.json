@@ -2,7 +2,7 @@
     "header": {
         "skills": "Compétences",
         "studies": "Études",
-        "pro": "Expériences profesionnel",
+        "pro": "Expériences profesionnelles",
         "side": "Projets personnels",
         "translation": {
             "fr": "Français",
@@ -15,7 +15,7 @@
     },
     "skills": {
         "categories": {
-            "ProgrammingLanguage": "Language de programmation",
+            "ProgrammingLanguage": "Langages de programmation",
             "Technologies3D": "Technologies 3D",
             "Framework": "Frameworks",
             "Database": "Bases de Données",
