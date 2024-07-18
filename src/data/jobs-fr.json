@@ -39,7 +39,7 @@
             "Développment d'interfaces utilisateurs en utilisant le <b>framework Ruby on Rails</b>, <b>Html</b>, <b>Css</b> et <b>JavaScript</b>, au travers d'une architecture <b>Model View Controller</b>.",
             "Développment d'interfaces représentant des données sous formes de graphiques à l'aide de la librairie <b>Chart.js</b>.",
             "Representation des données sous la forme d'un gps en utilisant la librairie JavaScript <b>Snap.svg</b>, afin de générer procéduralement des villes et des routes avec des splines 2D.",
-            "Développement d'APIs <b>CRUD</b> avec le framework Ruby on Rails, interagissant avec une base de donnée NosQL orientée graph (<b>Neo4j</b>).",
+            "Développement d'APIs <b>CRUD</b> avec le framework Ruby on Rails, interagissant avec une base de donnée <b>NoSQL</b> orientée graph (<b>Neo4j</b>).",
             "Utilisation de la librairie JavaScript <b>jQuery</b> pour interragir avec différentes APIs."
         ],
         "imageUrl": "assets/images/jobs/millionroads.png",
